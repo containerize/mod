@@ -1,4 +1,4 @@
-FROM golang:1.11-rc-alpine
+FROM golang:1.11-alpine
 RUN apk add --no-cache git
 WORKDIR /home/app
 ONBUILD COPY go.mod .
